@@ -21,7 +21,7 @@
                     <p class="text-muted">{{ auth()->user()->student_id }}</p>
                     <p class="text-muted">{{ auth()->user()->email }}</p>
                     <div class="d-grid gap-2">
-                        <a href="{{ route('profile.edit') }}" class="btn btn-primary">Edit Profile</a>
+                        <a href="{{ route('profile.edit') }}" class="btn btn-primary">Update Profile</a>
                         <a href="{{ route('profile.photo') }}" class="btn btn-outline-primary">Update Photo</a>
                     </div>
                 </div>
