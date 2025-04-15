@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
-                    <h1 class="display-4 fw-bold">Student Management System</h1>
+                    <h1 class="display-4 fw-bold">Students Management System</h1>
                     <p class="lead">Streamline your academic journey with our comprehensive student management platform.</p>
                     <div class="mt-4">
                         <a href="{{ route('register') }}" class="btn btn-light btn-lg me-3">Get Started</a>
