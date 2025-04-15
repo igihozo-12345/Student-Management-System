@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Welcome to Student Management System')
+@section('title', 'Welcome to Students Management System')
 
 @section('content')
     <section class="hero-section">
@@ -8,7 +8,7 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <h1 class="display-4 fw-bold">Students Management System</h1>
-                    <p class="lead">Streamline your academic journey with our comprehensive student management platform.</p>
+                    <p class="lead">Streamline your academic journey with our comprehensive students management platform.</p>
                     <div class="mt-4">
                         <a href="{{ route('register') }}" class="btn btn-light btn-lg me-3">Get Started</a>
                         <a href="{{ route('login') }}" class="btn btn-outline-light btn-lg">Login</a>
@@ -29,7 +29,7 @@
                     <div class="card feature-card h-100">
                         <div class="card-body text-center">
                             <i class="fas fa-user-graduate fa-3x mb-3 text-primary"></i>
-                            <h3 class="card-title">Student Profiles</h3>
+                            <h3 class="card-title">Students Profiles</h3>
                             <p class="card-text">Manage student information, track academic progress, and maintain comprehensive records.</p>
                         </div>
                     </div>
